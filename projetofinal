@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Projeto Final</title>
+    <meta charset="utf-8">
+    <link rel="stylessheet" type="text/css" href="aguaa.css">
+</head>
+<style>
+    
+.body{
+    width: 900px;
+    margin-left:auto;
+    margin-right: auto;
+}
+#azul{
+    height: 170px;
+    width:100%;
+    background-color:#2E73B9;
+}
+.caixaSuperior{
+    height:100px;
+    width:212px;
+    float:left;
+    margin-left:75px;
+    padding-top:50px;
+}
+.caixaSuperior h3{
+    margin:0px;
+    color:#FFF;
+    text-align: center;
+    font-size:10px;
+}
+.cx{
+    width:370px;
+    float:right;
+    margin-top:15px;
+    margin-right: 100px;
+    font-family: Arial, sans-serif;
+    font-size:13px;
+    color:#FFFFFF;
+}
+
+#verde{
+    height:170px;
+    width:100%;
+    background-color:#286C5C;
+}
+.diagonalVerde{
+    height:170px;
+    width:80px;
+    float:left;
+    background-color: #0A6938;
+}
+.texto{
+    font-family:Arial, sans-serif;
+    font-size:12px;
+    color:#FFFFFF;
+    -webkit-transform:rotate(270deg);
+    -o-transform:rotate(270deg);
+    -moz-transform:rotate(270deg);
+    white-space:nowrap;
+    margin-top:70px;
+}
+.caixa{
+    height:112px;
+    width: 200px;
+    padding-top:58px;
+    float:left;
+}
+    .caixa figure{
+        margin:0px;
+    }
+   .cx ul li{
+       list-style-image:url(imagem/gota.png);
+       line-height:25px;
+      
+    }
+#cinza{
+    height:172px;
+    width:100%;
+    margin-left:auto;
+    background-color:#9C9C9C;
+}
+.diagonalCinza{
+    height:172px;
+    width:80px;
+    background-color:#867875;
+    float:left;
+}
+#rosa{
+    height:172px;
+    width:100%;
+    margin-left:auto;
+    background-color:#cc00cc;
+}
+.diagonalRosa{
+    height:170px;
+    width:80px;
+    float:left;
+    background-color:  #cc00cc;
+}
+
+
+   
+}
+</style>
+<body class="body">
+    <div id="azul">
+        <div class="caixaSuperior">
+           <h1>Projeto Final</h1>
+        </div>
+        <div class="cx">
+           
+            
+        </div>
+    </div>
+
+    <div id="verde">
+        <div class="diagonalVerde">
+            <div class="texto">
+                FAMÍLIA
+            </div>
+        </div>
+      <div class ="caixa">
+          <figure>
+              <img src = "imagens/family.jfif " alt = "familia">
+          </figure>
+      </div>
+    
+    <div class = "cx">
+        <ul>
+           
+            <li>Eu sou uma pessoa de sorte e tenho muita gratidão por todos os presentes que Deus me deu. Eu nasci em uma família abençoada, carinhosa e incomparável.
+
+Cada um de vocês mora no meu coração e em cada um de vocês tenho um porto seguro.</li>
+            
+        </ul>
+    </div>
+    </div>
+<div id ="cinza">
+    <div class = "diagonalCinza">
+    <div class ="texto">
+        SOBRE MIM
+    </div>
+    </div>
+    <div class = "caixa">
+        <figure>
+            <img src = "imagens/sobremim.jfif" alt ="mim">
+        </figure>
+    </div>
+<div class="cx">
+    <ul>
+        
+        <li>Sou o reflexo de todas as experiências que já passei e não preciso que ninguém seja igual a mim, mas que me complete com aquilo que nunca vivi.</li>
+    </ul>
+</div>
+</div>
+
+<div id ="rosa">
+    <div class = "diagonalRosa">
+    <div class ="texto">
+        SONHOS
+    </div>
+    </div>
+    <div class = "caixa">
+        <figure>
+            <img src = "imagens/sonho.jpg" alt ="sonho">
+        </figure>
+    </div>
+    <div class="cx">
+        <ul>
+            <li>Nunca vou desistir dos meus sonhos, minhas metas e minhas buscas, usarei todas as forças necessária para convencer o mundo que sou um louco à procura da felicidade.</li>
+             
+            </ul>
+    </div> 
+</div>
+   
+           
+        
+                
+           
+                
+        </body>
+
+</html>
